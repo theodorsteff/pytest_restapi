@@ -5,7 +5,6 @@ Install python3, create a virtual environment for python, install required softw
 ```bash
 cd <repo_folder>
 sudo apt install python3 python3-venv
-cd ~
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
